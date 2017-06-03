@@ -1,0 +1,54 @@
+#div0{
+	width: 100%;
+	}
+#div1{
+	width: 30%;
+	height: 500px;
+	float: left;
+}
+#div2{
+	width: 40%;
+	height: 500px;
+	float: left;
+}
+#div3{
+	width: 30%;
+	height: 500px;
+	float: left;
+}
+img{
+	width: 100%;
+}
+#table1{
+	width: 100%;
+	border: 5px solid #AFEEEE;
+	background-image: url(http://moba.yh.cn/resource/img/role-bg.jpg);
+	background-size: cover;
+	color: 	#9ACD32;
+}
+.td1{
+	width: 30%;
+	border: 5px solid #AFEEEE;
+	text-align: center;
+}
+.td2{
+	width: 70%;
+	border: 5px solid #AFEEEE;
+}
+#table2{
+	background-image: url(http://moba.yh.cn/resource/img/role-bg.jpg);
+	background-size: cover;
+	width: 100%;
+	border:15px inset #fff2cc;  
+	align:center; 
+	padding: 10px;
+	font-size: 21px;
+	color: #F0FFFF;	
+}
+#submit{
+	font-size: 30px;
+}
+#reset{
+	font-size: 30px;
+}
+

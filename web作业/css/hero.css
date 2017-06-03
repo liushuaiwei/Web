@@ -1,0 +1,119 @@
+#div1{
+	width: 20%;
+	float: left;
+	background-image: url(http://moba.yh.cn/resource/img/role-bg.jpg);
+	background-size: 100% 100%;
+	color: #FFFFE0;
+}
+#div1 div p img{vertical-align: middle;}
+#div2{
+	background-image: url(http://moba.yh.cn/resource/img/role-bg.jpg);
+	background-size: 100% 100%;
+	width: 80%;
+	float: left;
+}
+div p{
+	margin: 0;
+	font-size: 35px;
+	text-align: center;
+}
+#p3{font-size: 30px;}
+i{font-size: 50px;}
+#div-table{
+	width: 100%;
+	font-size: 34px;
+}
+table{
+	width: 100%;
+	border: 3.5px solid #98bf21;
+}
+tr,td{
+	border:1px solid #98bf21;
+}
+td{
+	width: 30%;
+	text-align: center;
+	padding: 5px;
+}
+
+#div3{
+	width: 100%;
+	height: 1300px;
+	background-image: url(http://moba.yh.cn/resource/img/role-bg.jpg);
+	background-size: 100% 100%;
+	float: left;
+}
+ul{
+	list-style-type: none;
+}
+div[id^="skill"]{
+	width: 100%;
+	height: 300px;
+	margin: 0;
+	border: 3px solid #98bf21;
+
+}
+div[id^="skill"] video{
+	float: left;
+	height: 300px;
+}
+div[id^="skill"] img{
+	width: 200px;
+	height: 200px;
+}
+div[id^="skill"] h2{
+	font-size: 25px;
+	color: #00FF00;
+}
+div[id^="skill"] h3{
+	margin-top: 0px;
+	font-size: 40px;
+	color: #00FFFF;
+}
+div[id^="skill"] h1{
+	font-size: 60px;
+	color: #F0FFF0;
+	margin-top: 0px;
+	text-shadow: #A9A9A9 5px 5px 3px;
+} 
+#zhudong-skill{
+	float: left;
+	width: 77%;
+	height: 1200px;
+}
+#beidong-skill{
+	width: 20%;
+	height: 1200px;
+	float: left;
+}
+#beidong-skill img{
+	align="left";
+	width: 200px;
+	height: 200px;
+}
+#beidong-skill h2{
+	font-size: 30px;
+	color: #00FFFF;
+}
+#beidong-skill h1{
+	margin-top: 0px;
+	font-size: 60px;
+	text-shadow: #A9A9A9 5px 5px 3px;
+	color: #F0FFF0;
+}
+#beidong-skill h3{
+	font-size: 30px;
+	color: #00FF00;
+}
+#story{
+	font-size: 26px;
+	color: #00FF00;
+	border: 3px solid #98bf21;
+	border-radius: 10px 10px;
+	margin: 5%;
+}
+.story{
+
+	text-align: center;
+}
+

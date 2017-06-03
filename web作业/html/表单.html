@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表单页</title>
+	<link rel="stylesheet" href="../css/表单.css">
+	<style type="text/css">
+		#form2{background: #9370D8;padding: 10px;margin:auto;}
+		p button{background: #808080;padding: 8px;border-radius: 5px;}
+		p button:focus{padding: 20px;background: #2F4F4F;}
+		p input{padding: 18px;background: #f8f8f8;}
+		p input:hover{padding: 8px;background: #FFC0CB;}
+		.button{font-size: 50px;background: #00ffff;border-radius: 12px;padding: 10px;}
+	</style>
+</head>
+<body>
+	<div id="div0">
+		<div id="div1">
+			<img src="http://moba.yh.cn/resource/img/banner01-bg.jpg" alt="">
+			<table id="table1">
+				<caption>请您递上一份宝贵的答复,不胜感激</caption>
+				<tr>
+					<td class="td1">填表时间:</td>
+					<td class="td2">Date:<input type="date"></td>
+				</tr>
+				<tr>
+					<td class="td1">您的性别:</td>
+					<td class="td2">
+						<select>
+							<option value="男" selected="selected">男</option>
+							<option value="女">女</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td class="td1">您的幸运颜色</td>
+					<td class="td2"><input type="color" name="favcolor" value="#ff0000"></td>
+				</tr>
+				<tr>
+					<td class="td1">您的幸运数字</td>
+					<td class="td2"><input type="text" pattern="[0-9]{8}"></td>
+				</tr>
+				<tr>
+					<td class="td1">你喜欢的英雄海报</td>
+					<td class="td2"><input type="file" accept="image/jpeg" multiple="multiple"></td>
+				</tr>
+				<tr>
+					<td class="td1">你对moba游戏的了解程度</td>
+					<td class="td2">
+						<label><input type="radio">完全不了解</label><br>
+						<label><input type="radio">刚接触此类游戏</label><br>
+						<label><input type="radio">大神你懂吗</label>
+					</td>
+				</tr>
+				<tr>
+					<td class="td1">您的意见或建议</td>
+					<td class="td2">
+						<textarea  style="background:#F0FFFF" placeholder="感谢您的意见和建议，谢谢参与！"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td><button type="submit" style="background: #00ffff;border-radius: 12px;padding: 10px">提交</button> 
+						<button type="reset" style="background: #00ffff;border-radius: 12px;padding: 10px">重置</button>
+					</td>
+					
+				</tr>
+			</table>
+			<img src="https://imgsa.baidu.com/forum/w%3D580/sign=4df42b8dcbbf6c81f7372ce08c3fb1d7/a8ca980b19d8bc3e6043c92f858ba61ea9d3455d.jpg" alt="">
+			<a href="http://moba.yh.cn/download?type=android"><img src="http://moba.yh.cn/resource/img/news/dl_2_h.png" alt=""></a>
+		</div>
+		<div id="div2">
+			<table id="table2">
+				<tr>
+					<td>
+						<form id="form1" action="">
+							<h3>1.敌人就在眼前，你会？</h3>
+							<label><input type="radio" name="radio" value="A">冲、杀（我就是爱耍流氓）<br></label>
+							<label><input type="radio" name="radio" value="B">等队友（我可机智了）<br></label>
+							<h3>2.敌我双方正在火拼，你会？</h3>
+							<label><input type="radio" name="radio" value="A">死也要拉上个垫背的，拼！<br></label>
+							<label><input type="radio" name="radio" value="B">控制敌人、保护队友<br></label>
+							<label><input type="radio" name="radio" value="C">我要活着！伺机而动！<br></label>
+							<h3>3.你希望你是？</h3>
+							<label><input type="radio" name="radio" value="A">猛男<br></label>
+							<label><input type="radio" name="radio" value="B">酷女<br></label>
+							<label><input type="radio" name="radio" value="C">新人类<br></label>
+							<h3>4.攻击、防御与控制，三选一？</h3>
+							<label><input type="radio" name="radio" value="A">攻击<br></label>
+							<label><input type="radio" name="radio" value="B">防御<br></label>
+							<label><input type="radio" name="radio" value="C">控制<br></label>
+							<h3>5.你愿意做无名英雄吗？</h3>
+							<label><input type="radio" name="radio" value="A">愿意！名利神马的都是浮云！<br></label>
+							<label><input type="radio" name="radio" value="B">不愿意！我要名垂千秋<br></label>
+							<h3>6.魔法与物理，你更喜欢？</h3>
+							<label><input type="radio" name="radio" value="A">物理，我喜欢直接<br></label>
+							<label><input type="radio" name="radio" value="B">魔法，肉搏太野蛮<br></label>
+							<h3>7.你的内心正在告诉你</h3>
+							<label><input type="radio" name="radio" value="A">我要carry<br></label>
+							<label><input type="radio" name="radio" value="B">我有一颗辅助的心<br></label>
+							<h3>8.如果你是物理输出，你的理念是？</h3>
+							<label><input type="radio" name="radio" value="A">前期压制！气势你懂吗？<br></label>
+							<label><input type="radio" name="radio" value="B">进退自如，能奈我何？<br></label>
+							<label><input type="radio" name="radio" value="C">等咱熬出头，你们都得死!<br></label>
+							<h3>9.你敢冲锋在前面吗？</h3>
+							<label><input type="radio" name="radio" value="A">敢，队友跟我走<br></label>
+							<label><input type="radio" name="radio" value="B">不敢，我跟队友走<br></label>
+							<!-- <br> -->
+							<button class="button" type="submit"  onclick="alert('目前访问人数太多，请稍候重试')" >提交</button> 
+						<button class="button" type="reset">重置</button>
+						</form>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="div3">
+			<img src="http://moba.yh.cn/resource/img/banner04-bg.jpg" alt="">
+			<form id="form2" action="">
+			<fieldset>
+				<legend>用户登录</legend>
+				<p><label for="user">账号：</label><input type="text" name="user" id="user" placeholder="账号" required=""></p>
+				<p><label for="password">密码：</label><input type="password" name="password" id="password" placeholder="密码"></p>
+				<p><label for="tel">电话号码：</label><input type="tel" name="tel" id="tel" placeholder="电话"></p>
+				<p><label for="email">电子邮件：</label><input type="email" name="email" id="email" placeholder="电子邮件"></p>
+				<button type="submit">用户登录</button>
+			</fieldset>
+			</form> 
+			<img src="https://imgsa.baidu.com/forum/w%3D580/sign=28cbe0400d7b02080cc93fe952dbf25f/c64363f50ad162d9b41eaaf916dfa9ec8b13cd34.jpg" alt="">
+			<a href="http://moba.yh.cn/download?type=ios"><img src="http://moba.yh.cn/resource/img/news/dl_1_h.png" alt=""></a>
+		</div> 
+	</div>
+</body>
+</html>

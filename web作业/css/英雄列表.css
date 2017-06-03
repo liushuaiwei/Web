@@ -1,0 +1,33 @@
+body{
+	background-image: url(http://moba.yh.cn/resource/img/data-bg.jpg);
+	background-size: 100% 100%;
+}
+p{
+	color: #EEEE00;
+	font-size: 150px;
+	text-align: center;
+	text-shadow: 8px 8px 10px #A0522D;
+	margin-top: 160px;
+	margin-bottom: 0;
+}	
+div{
+	width: 16.6%;
+	text-align: center;
+	font-size: 30px;
+}
+#logo{width: 40%;}
+.class1{border-radius: 40px 80px;margin: 0 5%;}
+.class2{border-radius: 80px 40px;margin: 0 5%;}
+img{width:80%;}
+#div1{float: left;}
+#div2{float: left;}
+#div3{float: left;}
+#div4{float: left;}
+#div5{float: left;}
+#div6{float: left;}
+a{text-decoration: none;}
+a:link {color: #FF0000}
+a:visited {color: #00FF00}
+a:hover {color: #FF00FF}
+a:active {color: #0000FF}
+
